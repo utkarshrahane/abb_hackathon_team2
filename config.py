@@ -1,7 +1,7 @@
 # ============================================================================
 # CONFIGURATION FILE
 # ============================================================================
-DB_PATH: str = "./chroma_db"
+DB_PATH: str = "./chroma_store_json2"
 EMBED_MODEL: str = "sentence-transformers/all-MiniLM-L6-v2"
 
 # LLM configuration
