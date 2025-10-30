@@ -1,0 +1,157 @@
+import os
+from langchain_community.document_loaders import JSONLoader
+from langchain_community.vectorstores import Chroma
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_core.prompts import ChatPromptTemplate
+import json
+from datetime import datetime, timedelta
+
+import os
+os.environ["GOOGLE_API_KEY"] = "AIzaSyDpg7I9bxvPfHM5zoNL9np-KookmFAHvmw"
+
+
+class JSONIngestor:
+    """
+    Handles ingestion of JSON files into a Chroma vector store
+    and returns a retriever for downstream GenAI analysis.
+    """
+
+    def __init__(self, json_path: str, persist_dir: str = "./chroma_store_json2"):
+        self.json_path = json_path
+        self.persist_dir = persist_dir
+        self.embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+        self.db = None
+
+    def load_json(self):
+        """Loads and parses JSON documents."""
+        loader = JSONLoader(
+            file_path=self.json_path,
+            jq_schema=".[]",
+            text_content=False
+        )
+        docs = loader.load()
+        for d in docs:
+            try:
+                log_data = json.loads(d.page_content)
+                for key, value in log_data.items():
+                    # avoid large text blobs
+                    if isinstance(value, (str, int, float)):
+                        d.metadata[key] = value
+            except Exception:
+                pass
+
+        return docs
+
+    def chunk_documents(self, docs, chunk_size=500, chunk_overlap=50):
+        """Splits documents into smaller, overlapping chunks."""
+        splitter = RecursiveCharacterTextSplitter(
+            chunk_size=chunk_size,
+            chunk_overlap=chunk_overlap,
+            separators=["\n", " ", ".", ",", "{", "}"]
+        )
+        chunks = splitter.split_documents(docs)
+        print(f"🧩 Split {len(docs)} docs into {len(chunks)} chunks.")
+        return chunks
+
+    def create_or_load_vectorstore(self, docs):
+        """Creates a new Chroma DB if not exists, otherwise loads existing one."""
+        if not os.path.exists(self.persist_dir):
+            os.makedirs(self.persist_dir)
+            self.db = Chroma.from_documents(docs, self.embeddings, persist_directory=self.persist_dir)
+            self.db.persist()
+            print("✅ New Chroma DB created and persisted.")
+        else:
+            self.db = Chroma(persist_directory=self.persist_dir, embedding_function=self.embeddings)
+            print("📂 Existing Chroma DB loaded from disk.")
+        return self.db
+    
+    def interpret_filters(filters):
+        parsed_filter = {}
+
+        # Handle level
+        if "level" in filters:
+            parsed_filter["level"] = filters["level"]
+
+        # Handle time window
+        if "time_window" in filters:
+            now = datetime.now().timestamp()
+            window = filters["time_window"]
+
+            if window.endswith("h"):
+                hours = int(window[:-1])
+                parsed_filter["timestamp_epoch"] = {"$gte": now - hours * 3600}
+            elif window == "today":
+                start_of_day = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0).timestamp()
+                parsed_filter["timestamp_epoch"] = {"$gte": start_of_day}
+
+        return parsed_filter
+
+    def get_retriever(self, k: int = 500):
+        """Returns a retriever from the vectorstore, with optional metadata filter."""
+        if not self.db:
+            docs = self.load_json()
+            docs = self.chunk_documents(docs)
+            self.create_or_load_vectorstore(docs)
+
+        search_kwargs = {"k": k}
+        level_filter="WARN"
+        if level_filter:
+            search_kwargs["filter"] = {"level": level_filter}  # ✅ works now because metadata includes level
+
+        retriever = self.db.as_retriever(search_kwargs=search_kwargs)
+        print(f"🔍 Retriever ready. (Filter: {level_filter or 'None'})")
+        return retriever
+
+
+# --- Example usage ---
+if __name__ == "__main__":
+    json_path = "logs.json"  # your JSON file
+    ingestor = JSONIngestor(json_path)
+    retriever = ingestor.get_retriever()
+
+    # Example: retrieve documents
+    # results = retriever.get_relevant_documents("what are the messages for the ")
+    # for i, r in enumerate(results, 1):
+    #     print(f"\n--- Document {i} ---\n{r.page_content[:300]}...")
+    
+    model =ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.7)
+    question = "How many WARN level logs are there?"
+    result = retriever.invoke(question)
+    filter_template="""You are an expert at understanding the log files.You are a log analysis assistant.  
+                        Given a question, extract any filters in JSON form for level, time, or other fields.
+
+                        Examples:
+                        Q: How many WARN logs are there?
+                        A: {"level": "WARN"}
+
+                        Q: Show ERROR logs in the last 2 hours.
+                        A: {"level": "ERROR", "time_window": "2h"}
+
+                        Q: What are the INFO logs for today?
+                        A: {"level": "INFO", "time_window": "today"}
+
+                        Question: {user_query}"""
+    # filter_response = llm.invoke(prompt)                    
+    context = "\n\n".join([doc.page_content for doc in result])
+    # --- Define prompt template ---
+    template = """You are an expert in answering questions about logs
+    Here are some relevant info:
+    {context}
+
+    Question: {question}
+
+    Return: a detailed, factual answer based on the given info.
+    
+    """
+    prompt = ChatPromptTemplate.from_template(template)
+   
+    formatted_prompt=prompt.format(context=context, question=question)
+
+    prompt = ChatPromptTemplate.from_template(template)
+    answer=model.invoke(formatted_prompt)
+    print("\n💬 Answer:")
+    print(answer.content)
+    
+    
