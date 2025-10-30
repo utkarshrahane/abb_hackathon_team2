@@ -7,10 +7,13 @@ import streamlit as st
 
 # --- App Config ---
 BACKEND_URL = os.environ.get("LOG_ANALYZER_BACKEND", "http://localhost:8000")
-# Allow overriding the full endpoints directly (useful if backend exposes /query or other paths)
-ANALYZE_ENDPOINT = os.environ.get("LOG_ANALYZER_ANALYZE") or f"{BACKEND_URL.rstrip('/')}/analyze"
+# Default analyze endpoint set to the requested backend; can still be overridden by env var
+ANALYZE_ENDPOINT = os.environ.get("LOG_ANALYZER_ANALYZE", "http://10.170.217.31:8000/query")
+# Health endpoint falls back to BACKEND_URL/health but can be overridden
 HEALTH_ENDPOINT = os.environ.get("LOG_ANALYZER_HEALTH") or f"{BACKEND_URL.rstrip('/')}/health"
 REQUEST_TIMEOUT = float(os.environ.get("LOG_ANALYZER_TIMEOUT", "10"))
+# Payload format: 'json' sends JSON {"query": ...}; 'plain' sends text/plain body with the raw query
+PAYLOAD_FORMAT = os.environ.get("LOG_ANALYZER_PAYLOAD", "plain").lower()
 
 st.set_page_config(page_title="Conversational Log Analyzer", page_icon="💬", layout="wide")
 
@@ -56,9 +59,9 @@ with st.form("query_form", clear_on_submit=False):
 if submit and user_input:
     st.session_state["messages"].append({"role": "user", "content": user_input})
 
-    # Prepare payload (include uploaded file content optionally)
+    # Prepare payload (include uploaded file content optionally only for JSON mode)
     payload = {"query": user_input}
-    if uploaded:
+    if PAYLOAD_FORMAT == 'json' and uploaded:
         try:
             content = uploaded.read().decode("utf-8")
             payload["uploaded_logs"] = content
@@ -68,16 +71,26 @@ if submit and user_input:
     # call backend with spinner
     with st.spinner("Thinking..."):
         try:
-            resp = session.post(ANALYZE_ENDPOINT, json=payload, timeout=REQUEST_TIMEOUT)
+            if PAYLOAD_FORMAT == 'json':
+                resp = session.post(ANALYZE_ENDPOINT, json=payload, timeout=REQUEST_TIMEOUT)
+            else:
+                # plain text body containing only the user query
+                headers = {"Content-Type": "text/plain"}
+                resp = session.post(ANALYZE_ENDPOINT, data=user_input.encode('utf-8'), headers=headers, timeout=REQUEST_TIMEOUT)
+
             resp.raise_for_status()
-            data = resp.json()
-            answer = data.get("response") or data.get("answer") or "No response from backend."
+
+            # Try parse JSON response, fall back to raw text
+            try:
+                data = resp.json()
+                answer = data.get("response") or data.get("answer") or data.get("result") or json.dumps(data)
+            except Exception:
+                answer = resp.text or "No response from backend."
+
         except requests.exceptions.Timeout:
             answer = "Request timed out. Try again or increase the timeout."
         except requests.exceptions.RequestException as e:
             answer = f"Request failed: {e}"
-        except Exception:
-            answer = "Unexpected error parsing backend response."
 
     st.session_state["messages"].append({"role": "assistant", "content": answer})
 
