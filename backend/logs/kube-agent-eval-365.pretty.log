@@ -1,0 +1,2296 @@
+TIMESTAMP: 2025-09-13T00:00:27.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:00:31.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:00:38.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:00:48.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:00:49.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:00:59.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:01:06.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:01:12.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:01:16.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:01:24.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:01:29.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:01:37.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:01:41.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:01:50.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:01:54.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:01:57.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:02:03.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:02:04.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:02:07.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:02:13.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:02:20.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:02:28.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:02:29.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:02:33.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:02:40.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:02:41.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:02:51.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:02:54.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:03:02.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:03:09.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:03:13.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:03:22.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:03:27.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:03:28.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:03:31.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:03:40.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:03:47.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:03:57.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:04:02.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:04:11.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:04:21.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:04:31.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:04:35.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:04:41.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:04:44.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:04:48.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:04:57.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:04:58.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:05:08.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:05:10.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:05:15.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:05:16.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:05:22.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:05:28.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:05:33.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: ERROR
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:05:38.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:05:47.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:05:48.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:05:54.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:05:58.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:06:06.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:06:14.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: ERROR
+EVENT: kube_event
+REASON: Evicted
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:06:16.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:06:20.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:06:25.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:06:27.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:06:34.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:06:36.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:06:43.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:06:48.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:06:55.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:06:56.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:07:00.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:07:08.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:07:18.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:07:20.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:07:24.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:07:31.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:07:38.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:07:39.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:07:41.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:07:44.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:07:47.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:07:49.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:07:50.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:07:59.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:08:07.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:08:09.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:08:18.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:08:20.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:08:30.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:08:38.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:08:43.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:08:44.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:08:51.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:08:58.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:09:04.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:09:13.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: ERROR
+EVENT: kube_event
+REASON: Evicted
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:09:16.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:09:25.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:09:28.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:09:35.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:09:36.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:09:46.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:09:49.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:09:55.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:09:59.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:10:05.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:10:12.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:10:16.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:10:19.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:10:24.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:10:31.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:10:32.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:10:35.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:10:38.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:10:43.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:10:51.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:10:52.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:11:02.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: ERROR
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:11:04.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:11:10.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:11:19.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:11:28.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:11:31.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:11:36.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:11:45.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:11:52.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:11:59.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:12:07.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:12:16.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:12:22.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:12:31.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:12:34.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:12:37.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:12:41.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:12:46.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:12:55.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:13:01.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:13:08.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:13:14.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:13:20.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:13:22.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:13:31.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:13:35.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:13:38.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:13:47.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:13:49.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:13:53.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:13:57.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:14:02.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:14:04.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:14:14.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:14:18.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: ERROR
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:14:26.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:14:27.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:14:36.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:14:39.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:14:48.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:14:52.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:14:56.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: ERROR
+EVENT: kube_event
+REASON: Evicted
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:15:06.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:15:09.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:15:18.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:15:22.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:15:24.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:15:29.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:15:33.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:15:35.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:15:45.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:15:47.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: ERROR
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:15:56.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:16:01.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:16:09.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:16:14.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:16:22.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:16:31.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:16:40.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:16:46.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: ERROR
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:16:50.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:16:55.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:17:02.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:17:10.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:17:14.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:17:19.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:17:28.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:17:31.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:17:39.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:17:49.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:17:52.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:18:02.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:18:12.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:18:22.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:18:29.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:18:32.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:18:37.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:18:38.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:18:39.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:18:48.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:18:54.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:18:57.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: ERROR
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:18:59.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:19:04.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:19:07.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:19:15.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: Evicted
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:19:21.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:19:22.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:19:23.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:19:24.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:19:27.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:19:33.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:19:34.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:19:36.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:19:45.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:19:54.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:20:02.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: Evicted
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:20:10.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:20:12.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:20:16.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:20:19.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: ERROR
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:20:21.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:20:30.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:20:39.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:20:45.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:20:49.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:20:54.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:20:58.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:21:05.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:21:09.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:21:10.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:21:14.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: ERROR
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:21:15.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:21:23.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:21:25.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:21:35.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:21:45.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:21:50.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:21:58.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:22:03.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:22:13.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:22:19.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:22:22.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:22:26.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:22:28.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:22:35.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:22:41.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:22:50.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:22:52.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:22:54.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:22:58.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:23:05.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:23:11.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:23:16.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: ERROR
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:23:23.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:23:33.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:23:39.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: ERROR
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:23:41.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:23:42.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:23:49.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:23:56.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:24:01.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:24:10.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:24:19.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:24:26.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:24:29.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:24:35.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:24:43.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:24:52.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:25:00.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:25:03.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:25:05.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:25:13.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:25:14.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:25:15.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:25:20.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:25:30.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:25:35.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:25:38.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:25:40.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:25:42.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: ERROR
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:25:43.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:25:48.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:25:51.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:25:52.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:25:59.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:26:09.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:26:14.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:26:24.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:26:28.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:26:37.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:26:44.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:26:45.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:26:49.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:26:59.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:27:09.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: ERROR
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:27:11.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:27:17.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:27:22.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:27:23.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:27:30.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:27:33.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:27:36.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:27:43.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: ERROR
+EVENT: kube_event
+REASON: Evicted
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:27:46.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:27:48.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:27:54.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:27:56.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:28:01.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:28:03.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-6
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:28:07.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:28:09.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:28:11.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:28:13.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-3
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:28:21.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:28:26.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:28:27.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:28:35.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-2
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:28:37.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-7
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:28:40.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:28:41.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-8
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:28:47.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:28:55.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: Evicted
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:28:56.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: WARN
+EVENT: kube_event
+REASON: OOMKilled
+NODE: node-1
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:29:05.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Evicted
+NODE: node-4
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:29:14.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: DEBUG
+EVENT: kube_event
+REASON: CrashLoopBackOff
+NODE: node-10
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:29:17.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-9
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:29:26.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-5
+----------------------------------------
+TIMESTAMP: 2025-09-13T00:29:30.209576+05:30
+POD: kube-agent-eval-365
+LEVEL: INFO
+EVENT: kube_event
+REASON: Scheduled
+NODE: node-4
+----------------------------------------
