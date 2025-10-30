@@ -9,7 +9,7 @@ import json
 from datetime import datetime, timedelta
 
 import os
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDpg7I9bxvPfHM5zoNL9np-KookmFAHvmw"
+os.environ["GOOGLE_API_KEY"] = "yourkey"
 
 
 class JSONIngestor:

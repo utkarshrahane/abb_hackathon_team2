@@ -8,7 +8,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 
 # --- Initialize API key ---
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDpg7I9bxvPfHM5zoNL9np-KookmFAHvmw"
+os.environ["GOOGLE_API_KEY"] = "yourkey"
 
 class CSVLogAnalyzer:
     def __init__(self, csv_path: str):

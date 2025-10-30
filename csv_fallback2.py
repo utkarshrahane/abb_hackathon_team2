@@ -9,7 +9,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 
 # --- Set your API key ---
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDpg7I9bxvPfHM5zoNL9np-KookmFAHvmw"
+os.environ["GOOGLE_API_KEY"] = "yourkey"
 
 
 def analyze_log_query(csv_path: str, user_query: str) -> pd.DataFrame:
