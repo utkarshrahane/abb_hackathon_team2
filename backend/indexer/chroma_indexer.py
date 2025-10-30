@@ -33,6 +33,29 @@ def _safe_str(v: Any) -> Optional[str]:
             return None
     except Exception:
         pass
+    # pandas Timestamp -> ISO
+    try:
+        import pandas as _pd
+        if isinstance(v, _pd.Timestamp):
+            try:
+                s = v.isoformat()
+            except Exception:
+                s = str(v)
+            if s.endswith('+00:00'):
+                s = s.replace('+00:00', 'Z')
+            return s
+    except Exception:
+        pass
+    # datetime
+    try:
+        from datetime import datetime as _dt
+        if isinstance(v, _dt):
+            s = v.isoformat()
+            if s.endswith('+00:00'):
+                s = s.replace('+00:00', 'Z')
+            return s
+    except Exception:
+        pass
     return str(v)
 
 
