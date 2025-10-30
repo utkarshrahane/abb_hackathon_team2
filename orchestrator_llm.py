@@ -20,6 +20,7 @@ import uvicorn
 
 from llm_prompts import QUERY_PLANNER_PROMPT, ANSWER_GENERATOR_TEMPLATE
 import config
+from vectorstore_utils import interpret_filters
 
 # ----------------------------------------------------------------------------
 # LOGGING
@@ -80,8 +81,8 @@ def run_query_planner(question: str, llm_planner: OllamaLLM) -> dict:
     LLM 1 decides whether the query requires embedding search, filters, or both.
     Output JSON → {"filters": {...}, "search_type": "..."}
     """
-
-    response = llm_planner.invoke(QUERY_PLANNER_PROMPT)
+    planner_prompt = QUERY_PLANNER_PROMPT.format(question=question)
+    response = llm_planner.invoke(planner_prompt)
     try:
         return json.loads(response.strip())
     except Exception:
@@ -91,22 +92,48 @@ def run_query_planner(question: str, llm_planner: OllamaLLM) -> dict:
 # ----------------------------------------------------------------------------
 # 4. RETRIEVER
 # ----------------------------------------------------------------------------
-def retrieve_context(vectorstore: Chroma, query: str, filters: dict, search_type: str):
-    """
-    Retrieve relevant logs based on LLM 1 decision.
-    """
-    if search_type == "filter_only":
-        # Example: apply metadata filters only
-        results = vectorstore._collection.get(where=filters)
-        docs = [Document(page_content=r, metadata=filters) for r in results.get("documents", [])]
-    else:
-        retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
-        docs = retriever.invoke(query)
 
+def retrieve_context(vectorstore: Chroma, query: str, filters: dict, search_type: str) -> str:
+    """
+    Retrieves relevant context from Chroma based on LLM planner’s filters.
+    Handles hybrid, embedding-only, and filter-only modes.
+    """
+
+    chroma_filter = interpret_filters(filters)
+    logger.info(f"🧩 Applying Chroma filter: {chroma_filter}")
+
+    docs = []
+
+    try:
+        if search_type == "filter_only":
+            # Only filter-based retrieval
+            results = vectorstore._collection.get(where=chroma_filter)
+            for i, doc_text in enumerate(results.get("documents", [])):
+                docs.append(Document(page_content=doc_text, metadata=chroma_filter))
+            print(results)
+
+        elif search_type == "hybrid":
+            # Retrieve using both filters and semantic similarity
+            retriever = vectorstore.as_retriever(search_kwargs={"k": 5, "filter": chroma_filter})
+            docs = retriever.invoke(query)
+
+        else:  # embedding-only
+            retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
+            docs = retriever.invoke(query)
+
+    except Exception as e:
+        logger.error(f"⚠️ Retrieval failed: {e}")
+    
+    # Format for LLM
     formatted = "\n\n".join(
-        [f"[{d.metadata.get('source', 'log')}]\n{d.page_content[:500]}" for d in docs]
+        [f"[{d.metadata.get('source', 'log')}] {d.page_content[:500]}" for d in docs]
     )
+
+    if not formatted:
+        formatted = "No relevant logs found in the database."
+
     return formatted
+
 
 # ----------------------------------------------------------------------------
 # 5. LLM 2 → ANSWER GENERATOR
